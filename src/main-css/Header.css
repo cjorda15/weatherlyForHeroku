@@ -64,10 +64,18 @@ justify-content: space-around;
   color:magenta;
 }
 
-@media(max-width:560px){
-.header-logo{
-display: none;
+@media(max-width:460px){
+.nav-container{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
 }
+
+.header-logo{
+  height:50px;
+  width:50px;
+}
+
 
 }
 
